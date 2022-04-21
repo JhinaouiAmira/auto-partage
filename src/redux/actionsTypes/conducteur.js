@@ -1,0 +1,14 @@
+export const SIGNIN_CONDUCTEUR = "SIGNIN_CONDUCTEUR";
+export const SIGNUP_CONDUCTEUR = "SIGNUP_CONDUCTEUR";
+export const LOAD = "LOAD";
+export const FAIL = "FAIL";
+export const LOG_OUT = "LOG_OUT";
+export const GET_ALLVOYAGES = "GET_ALLVOYAGES";
+export const GET_VOYAGE_BYIDC = "GET_VOYAGE_BYIDC";
+export const GET_ALLVOITURES = "GET_ALLVOITURES";
+export const GET_PROFILE_BYID_CONDUCTEUR="GET_PROFILE_BYID_CONDUCTEUR" 
+
+
+
+
+

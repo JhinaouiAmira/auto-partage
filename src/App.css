@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+  max-width: 550px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+  padding: 45px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  /* style={{backgroundImage:
+    "url(" +
+    "https://berthiersurmer.ca/wp-content/uploads/2019/08/covoiturage-pourquoi-ca-ne-marche-pas-toujours-24_XL.gif.jpg" +
+    ")",backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      width:"400px",height:'300px'}} */
+      background-image: url("https://berthiersurmer.ca/wp-content/uploads/2019/08/covoiturage-pourquoi-ca-ne-marche-pas-toujours-24_XL.gif.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 500px;
+    padding-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+
+input {
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  /* padding: 7px 10px; */
+  margin: 8px 0;
+  width: 100%;
+}
+.Container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  width: 400px;
+  
+  margin: 20px;
+}
+/* input */
+button {
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+button:active {
+  transform: scale(0.95);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+/* footer {
+  background-color: gray;
+} */
+label{
+  font-size: 25px;
+  font-weight: 450;
+}
+p {
+  padding: 20px;
+  /* border: 1px solid #999; */
+  margin-bottom: 2em;
+  
 }

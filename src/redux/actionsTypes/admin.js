@@ -1,0 +1,11 @@
+export const SIGNIN_ADMIN = "SIGNIN_ADMIN";
+export const LOAD = "LOAD";
+export const GET_PROFILE_BYID_ADMIN="GET_PROFILE_BYID_ADMIN" 
+export const GET_ALLCONDUCTEURS = "GET_ALLCONDUCTEURS";
+export const GET_ALLVOYAGEURS = "GET_ALLVOYAGEURS";
+export const GET_ALLVOYAGES = "GET_ALLVOYAGES";
+export const GET_ALLVOITURES = "GET_ALLVOITURES";
+export const FAIL = "FAIL";
+export const LOG_OUT = "LOG_OUT";
+
+
